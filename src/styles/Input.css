@@ -1,0 +1,22 @@
+.input {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+}
+.form {
+  width: 700px;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.inp {
+  outline: none;
+}
+@media screen and (max-width: 800px) {
+  .form {
+    width: 100%;
+  }
+}
